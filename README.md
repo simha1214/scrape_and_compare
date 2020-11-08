@@ -1,12 +1,12 @@
 # scrape_and_compare
-##Required packages
-  1.  requests
-  2.  fuzzywuzzy
-  3.  sentence_transformers
-  4.  tensorflow
-  5.  tensorflow_hub
-  6.  bs4
-##Encoding models in use- Universal Sentence Encoder, Sentence Transformers
+## Required packages
+  1. requests
+  2. fuzzywuzzy
+  3. sentence_transformers
+  4. tensorflow
+  5. tensorflow_hub
+  6. bs4
+## Encoding models in use- Universal Sentence Encoder, Sentence Transformers
 
 ## Domains
  - Currently our code will support only 3 domains based articles
@@ -14,7 +14,7 @@
    - NewYork Times
    - NDTV
 
-##Functionality :
+## Functionality :
   - Takes 2 urls as input which are actually the urls of articles from 2 different sources.
   - Now for each url, we will do scraping with below approach in a single function called `scraper`
     - First we scrape entire content and convert it into a soup object
